@@ -4,6 +4,9 @@ This is a stand-alone utility file that wraps the XMGrace plotting software in a
 You are meant to use this to generate the data portion of the .agr files, while you use the XMGrace GUI to change the visuals.
 This allows you to use code to generate the data, but a GUI to design the aesthetics of your plots, that way you don't have to deal with cumbersome styling code.
 
+![After Edits](examples/paper_figure/screenshot.png)
+
+
 ## Overview
 This implementation provides a single function call for plot generation.
 Xmgrace is well-know for it's high quality and well-established use case in scientific plotting.
@@ -62,6 +65,7 @@ This is what it looks like when first renders. Notice only one group shows, and 
 
 This is what it looks like after a few minutes of formatting in the XMGrace interface.
 ![After Edits](examples/after_edit/screenshot.png)
+
 
 ## Limitations
 
